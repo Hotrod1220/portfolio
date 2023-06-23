@@ -15,63 +15,67 @@
         "Languages": [
             {
                 "title": "Python",
-                "logo": "logo.png"
+                "logo": "python.svg"
             },
             {
                 "title": "C++",
-                "logo": "logo.png"
+                "logo": "c++.svg"
             },
             {
                 "title": "SQL",
-                "logo": "logo.png"
+                "logo": "sql.svg"
             },
             {
                 "title": "HTML",
-                "logo": "logo.png"
+                "logo": "html.svg"
             },
             {
                 "title": "CSS",
-                "logo": "logo.png"
+                "logo": "css.svg"
             },
             {
                 "title": "JavaScript",
-                "logo": "logo.png"
+                "logo": "javascript.svg"
             }
         ],
         "Frameworks": [
             {
                 "title": "PyTorch",
-                "logo": "logo.png"
+                "logo": "pytorch.svg"
             },
             {
                 "title": "MySQL",
-                "logo": "logo.png"
+                "logo": "mysql.svg"
             },
             {
                 "title": "GoogleTest",
-                "logo": "logo.png"
+                "logo": "googletest.svg"
             },
             {
                 "title": "ReactJS",
-                "logo": "logo.png"
+                "logo": "reactjs.svg"
             },
             {
                 "title": "jQuery",
-                "logo": "logo.png"
+                "logo": "jquery.svg"
             }
         ],
         "Tools": [
             {
                 "title": "Github",
-                "logo": "logo.png"
+                "logo": "github.svg"
+            },
+            {
+                "title": "GitLab",
+                "logo": "gitlab.svg"
             },
             {
                 "title": "VS Code",
-                "logo": "logo.png"
+                "logo": "vscode.svg"
             },
             {
                 "title": "UNIX CLI",
-                "logo": "logo.png"
+                "logo": "unixcli.svg"
             }
         ]
     },
@@ -95,11 +99,11 @@
             "tools": [
                 {
                     "title": "Python",
-                    "logo": "logo.png"
+                    "logo": "python.svg"
                 },
                 {
                     "title": "PyTorch",
-                    "logo": "logo.png"
+                    "logo": "pytorch.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/Digit_Identification",
@@ -112,19 +116,19 @@
             "tools": [
                 {
                     "title": "ReactJS",
-                    "logo": "logo.png"
+                    "logo": "reactjs.svg"
                 },
                 {
                     "title": "JavaScript",
-                    "logo": "logo.png"
+                    "logo": "javascript.svg"
                 },
                 {
                     "title": "HTML",
-                    "logo": "logo.png"
+                    "logo": "html.svg"
                 },
                 {
                     "title": "CSS",
-                    "logo": "logo.png"
+                    "logo": "css.svg"
                 }
             ],
             "github": null,
@@ -137,11 +141,11 @@
             "tools": [
                 {
                     "title": "Python",
-                    "logo": "logo.png"
+                    "logo": "python.svg"
                 },
                 {
                     "title": "PyTorch",
-                    "logo": "logo.png"
+                    "logo": "pytorch.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/waldo",
@@ -154,11 +158,11 @@
             "tools": [
                 {
                     "title": "HTML",
-                    "logo": "logo.png"
+                    "logo": "html.svg"
                 },
                 {
                     "title": "CSS",
-                    "logo": "logo.png"
+                    "logo": "css.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/ROCK-PAPER-SCISSORS",
@@ -171,19 +175,19 @@
             "tools": [
                 {
                     "title": "JavaScript",
-                    "logo": "logo.png"
+                    "logo": "javascript.svg"
                 },
                 {
                     "title": "jQuery",
-                    "logo": "logo.png"
+                    "logo": "jquery.svg"
                 },
                 {
                     "title": "HTML",
-                    "logo": "logo.png"
+                    "logo": "html.svg"
                 },
                 {
                     "title": "CSS",
-                    "logo": "logo.png"
+                    "logo": "css.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/V-I-R-U-S",
@@ -196,19 +200,19 @@
             "tools": [
                 {
                     "title": "JavaScript",
-                    "logo": "logo.png"
+                    "logo": "javascript.svg"
                 },
                 {
                     "title": "jQuery",
-                    "logo": "logo.png"
+                    "logo": "jquery.svg"
                 },
                 {
                     "title": "HTML",
-                    "logo": "logo.png"
+                    "logo": "html.svg"
                 },
                 {
                     "title": "CSS",
-                    "logo": "logo.png"
+                    "logo": "css.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/Warriors-2022",
@@ -221,11 +225,11 @@
             "tools": [
                 {
                     "title": "HTML",
-                    "logo": "logo.png"
+                    "logo": "html.svg"
                 },
                 {
                     "title": "CSS",
-                    "logo": "logo.png"
+                    "logo": "css.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/ray_tracing_fundamentals",
@@ -238,15 +242,15 @@
             "tools": [
                 {
                     "title": "SQL",
-                    "logo": "logo.png"
+                    "logo": "sql.svg"
                 },
                 {
                     "title": "PHP",
-                    "logo": "logo.png"
+                    "logo": "php.svg"
                 },
                 {
                     "title": "MySQL",
-                    "logo": "logo.png"
+                    "logo": "mysql.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/TydonsPizzeria",
@@ -259,11 +263,11 @@
             "tools": [
                 {
                     "title": "C++",
-                    "logo": "logo.png"
+                    "logo": "c++.svg"
                 },
                 {
                     "title": "GoogleTest",
-                    "logo": "logo.png"
+                    "logo": "googletest.svg"
                 }
             ],
             "github": "https://github.com/Hotrod1220/text-adventure-game",
