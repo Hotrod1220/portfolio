@@ -1,13 +1,17 @@
-
-function ListSkills(title, content) {
-
-    /* Next steps are to create a state for the content items,
-    iterate through them and create a list item for each */
+function ListSkills({ section, content }) {
 
     return (
-        <ul>
-            <li></li>
-        </ul>
+        <div>
+            <h3>{section}</h3>
+            <ul>
+                {content.map((skill) => (
+                    <li key={skill.title}>
+                        {skill.logo.render(skill.logo.$$typeof)}
+                        <p>{skill.title}</p>
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
 }
 

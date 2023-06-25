@@ -25,6 +25,7 @@ function Skills() {
         var tools = data.Tools
         const allSkills = [languages, frameworks, tools]
         const logos = [python, c, sql, html, css, javascript, pytorch, mysql, googletest, reactjs, jquery, github, gitlab, vscode, unixcli]
+        let logoIndex = 0
 
         for (let i = 0; i < allSkills.length; i++) {
             let skillsList = allSkills[i]
@@ -38,7 +39,9 @@ function Skills() {
                         title = 'C'
                     }
                     if ('Svg' + title == logos[k].render.name) {
-                        skillsList[j].logo = logos[j]
+                        skillsList[j].logo = logos[logoIndex]
+                        logoIndex++
+                        break;
                     }
                 }
             }
@@ -52,13 +55,13 @@ function Skills() {
             {data &&
                 <div>
                     <div>
-                        <ListSkills title="Languages" content={languages} />
+                        <ListSkills section="Languages" content={languages} />
                     </div>
                     <div>
-                        <ListSkills title="Frameworks" content={frameworks} />
+                        <ListSkills section="Frameworks" content={frameworks} />
                     </div>
                     <div>
-                        <ListSkills title="Tools" content={tools} />
+                        <ListSkills section="Tools" content={tools} />
                     </div>
                 </div>
             }
