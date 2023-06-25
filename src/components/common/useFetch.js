@@ -17,7 +17,7 @@ function useFetch(url) {
             })
             .then(data => {
                 setData(data);
-                setIsPending(true);
+                setIsPending(false);
                 setError(null)
             })
             .catch(error => {
