@@ -96,7 +96,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/Digit_Identification",
-            "web": null
+            "web": null,
+            "images" : ["progress"]
         },
         {
             "title": "TataLab",
@@ -121,7 +122,8 @@
                 }
             ],
             "github": null,
-            "web": "tatalab.ca"
+            "web": "tatalab.ca",
+            "images" : ["progress"]
         },
         {
             "title": "Where's Waldo",
@@ -138,7 +140,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/waldo",
-            "web": null
+            "web": null,
+            "images" : ["waldo1"]
         },
         {
             "title": "Rock Paper Scissors",
@@ -155,7 +158,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/ROCK-PAPER-SCISSORS",
-            "web": "https://hotrod1220.github.io/ROCK-PAPER-SCISSORS/index.html"
+            "web": "https://hotrod1220.github.io/ROCK-PAPER-SCISSORS/index.html",
+            "images" : ["rock", "paper", "scissors"]
         },
         {
             "title": "V-I-R-U-S",
@@ -180,7 +184,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/V-I-R-U-S",
-            "web": "https://hotrod1220.github.io/V-I-R-U-S/"
+            "web": "https://hotrod1220.github.io/V-I-R-U-S/",
+            "images" : ["maze1", "maze2"]
         },
         {
             "title": "Rise and Fall of the 2022 Warriors",
@@ -205,7 +210,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/Warriors-2022",
-            "web": "https://hotrod1220.github.io/Warriors-2022/"
+            "web": "https://hotrod1220.github.io/Warriors-2022/",
+            "images" : ["warriors1", "warriors2", "warriors3"]
         },
         {
             "title": "Ray Tracing Fundamentals",
@@ -222,7 +228,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/ray_tracing_fundamentals",
-            "web": "https://hotrod1220.github.io/ray_tracing_fundamentals/"
+            "web": "https://hotrod1220.github.io/ray_tracing_fundamentals/",
+            "images" : ["raytracing1", "raytracing2", "raytracing3"]
         },
         {
             "title": "Tydons Pizzeria",
@@ -243,7 +250,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/TydonsPizzeria",
-            "web": null
+            "web": null,
+            "images" : ["tydon"]
         },
         {
             "title": "Retrograde",
@@ -260,7 +268,8 @@
                 }
             ],
             "github": "https://github.com/Hotrod1220/text-adventure-game",
-            "web": null
+            "web": null,
+            "images" : ["retrograde"]
         }
     ]
 }
