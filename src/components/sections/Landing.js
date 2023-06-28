@@ -26,7 +26,7 @@ function Landing() {
     }, [comments])
 
     return (
-        <section>
+        <section id="home">
             <div>
                 <h1><span>Ty</span>rell Martens</h1>
             </div>

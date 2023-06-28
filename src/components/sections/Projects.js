@@ -35,7 +35,7 @@ function Projects() {
     }
 
     return(
-        <section>
+        <section id="projects">
             <h1>Projects</h1>
             {error && <div><p>There was an error: </p>{error.name}</div>}
             {loading && <p>Loading...</p>}

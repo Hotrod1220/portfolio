@@ -11,7 +11,7 @@ function Skills() {
         var tools = mapSvgs(data.Tools)
     }
     return (
-        <section>
+        <section id="skills">
             <h1>Technologies</h1>
             {error && <div><p>There was an error: </p>{error.name}</div>}
             {loading && <p>Loading...</p>}
