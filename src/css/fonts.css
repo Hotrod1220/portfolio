@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Questrial&family=Rubik+Glitch&display=swap');
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 55px;
+}
+
+h2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 45px;
+}
+
+h3 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--lightsecondary);
+}

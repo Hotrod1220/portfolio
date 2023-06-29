@@ -1,36 +1,48 @@
 import { useState, useEffect } from 'react';
+import { ReactComponent as DownArrow } from '../../images/icons/chevron-bottom.svg';
 
 let index = 0
 
 function Landing() {
     const data = [
         "Excellent team member!",
-        "We can always count on you to lighten the mood in the workplace.",
         "Leadership from Tyrell was marvelous.",
         "Pure passion in what he does.",
-        "Makes those better around him, just with his presence",
-        "Always goes the extra mile.",
-        "'Relentless pursuit of excellence', Wow Tyrell is wordy.",
         "The best Tyrell Martens I know!",
-        "I like to think people thought these things... just a joke",
+        "Makes those better around him, just with his presence.",
+        "Always goes the extra mile.",
+        "Always willing to learn everything he can.",
+        "\"Relentless pursuit of excellence\", Wow Tyrell is wordy.",
+        "Always bringing positivity to the workplace.",
+        "Great at following orders and handling criticism - my wife",
+        "These are all made up... just a joke",
+        "Shows up early, goes above and beyond, stays late. We're lucky to have him.",
         "I wonder if anyone is gonna read this."
     ]
-    const [comments, setComments] = useState(data[0])
+    const [comments, setComments] = useState([data[0], data[1], data[2]])
 
     useEffect(() => {
         setTimeout(() => {
-            index++
-            index %= 10
-            setComments(data[index])
+            index += 3
+            setComments([
+                data[index % data.length],
+                data[(index + 1) % data.length],
+                data[(index + 2) % data.length]
+            ])
         }, 8000)
     }, [comments])
 
     return (
-        <section id="home">
-            <div>
-                <h1><span>Ty</span>rell Martens</h1>
+        <section id="home" className="landing">
+            <div className="landing__title">
+                <h1><span>Ty</span>rell<br/>Martens</h1>
             </div>
-            <div>{comments}</div>
+            <div className="landing__comments">
+                <p id="comment1">{comments[0]}</p>
+                <p id="comment2">{comments[1]}</p>
+                <p id="comment3">{comments[2]}</p>
+            </div>
+            <DownArrow className="landing__arrow"/>
         </section>
     );
 }

@@ -1,0 +1,27 @@
+.primary-nav {
+    background-color: var(--darkgrey);
+    border-bottom: 2px solid var(--grey);
+    /* border-top: 2px solid var(--grey); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.primary-nav nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 40px;
+}
+.primary-nav nav ul li a{
+    font-size: 18px;
+    color: var(--white)
+}
+
+.logo {
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 40px;
+    color: var(--white)
+}

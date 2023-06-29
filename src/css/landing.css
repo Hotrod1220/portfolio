@@ -1,0 +1,73 @@
+.landing {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.landing__title h1 {
+    font-size: 200px;
+    text-align: left;
+    margin: 0;
+}
+
+.landing__title h1 span {
+    color: var(--lightsecondary)
+}
+
+.landing__comments {
+    position: absolute;
+    max-width: 300px;
+}
+
+.landing__comments p {
+    font-size: 20px;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.landing__comments p:first-child {
+    transform: translate(11vw, -20vh);
+}
+
+.landing__comments p:nth-child(2) {
+    transform: translate(35vw, -7vh);
+}
+
+.landing__comments p:last-child {
+    transform: translate(54vw, 7vh);
+}
+
+.landing__arrow {
+    position: absolute;
+    transform: translate(45vw, 40vh);
+    max-width: 50px;
+    fill: var(--white);
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 30%;
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(45vw, 40vh);
+    }
+
+    to {
+        transform: translate(45vw, 43vh);
+    }
+}
