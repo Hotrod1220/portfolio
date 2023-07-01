@@ -1,6 +1,6 @@
 .primary-nav {
-    background-color: var(--darkgrey);
-    border-bottom: 2px solid var(--grey);
+    background-color: var(--grey);
+    border-bottom: 2px solid var(--lightsecondary);
     /* border-top: 2px solid var(--grey); */
     display: flex;
     justify-content: space-between;

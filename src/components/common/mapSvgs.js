@@ -23,10 +23,10 @@ function mapSvgs(dataList) {
         title = title.charAt(0).toUpperCase() + title.slice(1)
 
         for (let k in logos) {
-            if (title == 'C++') {
+            if (title === 'C++') {
                 title = 'C'
             }
-            if ('Svg' + title == logos[k].render.name) {
+            if ('Svg' + title === logos[k].render.name) {
                 dataList[j].logo = logos[k]
                 break;
             }

@@ -1,0 +1,33 @@
+.three-grid__style {
+    height: 100%;
+    border-radius: 3%;
+    background-color: var(--grey);
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.three-grid__style ul {
+    margin: 0;
+    padding: 0;
+}
+
+.three-grid__style ul li svg {
+    max-width: 40px;
+    align-self: center;
+    justify-self: center;
+}
+
+.three-grid__style ul li p {
+    text-align: left;
+}
+
+.three-grid__style h3 {
+    margin: 0;
+    padding: 20px;
+    border-radius: 3%;
+    background-color: var(--secondary);
+}
+
+.three-grid__style ul li {
+    border-bottom: 2px solid var(--secondary);
+}

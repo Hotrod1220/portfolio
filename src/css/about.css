@@ -1,0 +1,33 @@
+.about {
+    padding-top: 40px;
+}
+
+.about__content {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__content > * span {
+    color: var(--lightsecondary)
+}
+
+.about__img {
+    border-radius: 1%;
+}
+
+/* 
+    background-image: url('../images/suit.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} */

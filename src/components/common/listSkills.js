@@ -1,11 +1,18 @@
 function ListSkills({ section, content }) {
+    var name, grid;
+    if (section === null) {
+        name = "projects__content__tools"
+    } else {
+        name = "three-grid__style"
+        grid = "two-grid"
+    }
 
     return (
-        <div>
+        <div className={name}>
             <h3>{section}</h3>
             <ul>
                 {content.map((skill) => (
-                    <li key={skill.title}>
+                    <li key={skill.title} className={grid}>
                         {skill.logo.render(skill.logo.$$typeof)}
                         <p>{skill.title}</p>
                     </li>

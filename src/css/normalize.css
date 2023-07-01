@@ -1,9 +1,11 @@
 :root {
     --black: #010101;
-    --darkgrey: #646464;
-    --grey: #BFBFBF;
+    --darkgrey: #1E1E1E;
+    --grey: #363636;
+    /* --darkgrey: #363636;
+    --grey: #646464; */
     --lightsecondary: #F1A540;
-    --secondary: #DF8918;
+    --secondary: #646464;
     --white: #FEFFFE;
 }
 
@@ -18,6 +20,7 @@ html {
     background-color: var(--black);
     color: var(--white);
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -30,9 +33,22 @@ svg {
 }
 
 .container {
-    max-width: 95vw;
+    max-width: 2000px;
+    margin: auto;
 }
 
 .wrapper {
-    padding: 10px 40px;
+    padding: 50px 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.margin-bottom-zero {
+    margin-bottom: 0;
+}
+
+li svg path:first-child {
+    fill: var(--lightsecondary);
 }

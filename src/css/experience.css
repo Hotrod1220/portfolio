@@ -1,0 +1,59 @@
+.toggle-menu__title {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid var(--lightsecondary);
+}
+
+.toggle-menu__title div > * {
+    margin: 0;
+    text-align: left;
+}
+
+.toggle-menu__title div:last-child {
+    display: flex;
+    align-self: center;
+    column-gap: 10px;
+}
+
+.toggle-menu__title div p {
+    font-size: 20px;
+}
+
+.toggle-menu__content ul li p{
+    font-size: 20px;
+    text-align: left;
+    color: var(--lightsecondary)
+}
+
+.toggle-menu__content ul li {
+    list-style-type: disc;
+    color: var(--lightsecondary)
+}
+
+.toggle-arrow {
+    max-width: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+    border-width: 0;
+}
+
+.arrowSvg {
+    animation-name: arrowClick;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+@keyframes arrowClick {
+    from {
+        transform: rotate(90deg)
+    }
+
+    to {
+        transform: rotate(0deg)
+    }
+}

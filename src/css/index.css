@@ -1,5 +1,10 @@
 
 @import './normalize.css';
+@import './grid.css';
 @import './fonts.css';
 @import './landing.css';
 @import './nav.css';
+@import './about.css';
+@import './skills.css';
+@import './experience.css';
+@import './projects.css';
