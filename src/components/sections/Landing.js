@@ -33,7 +33,7 @@ function Landing() {
     }, [comments])
 
     return (
-        <section id="home" className="landing">
+        <section id="home" className="landing container">
             <div className="landing__title">
                 <h1><span>Ty</span>rell<br/>Martens</h1>
             </div>

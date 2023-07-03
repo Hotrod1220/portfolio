@@ -6,10 +6,16 @@
     padding: 0px 40px;
 }
 
+.landing__title {
+    display: grid;
+    height: 80vh;
+}
+
 .landing__title h1 {
     font-size: 200px;
     text-align: left;
     margin: 0;
+    align-self: center;
 }
 
 .landing__title h1 span {
@@ -42,8 +48,7 @@
 }
 
 .landing__arrow {
-    position: absolute;
-    transform: translate(45vw, 40vh);
+    align-self: center;
     max-width: 50px;
     fill: var(--white);
     animation-name: bounce;
@@ -64,10 +69,10 @@
 
 @keyframes bounce {
     from {
-        transform: translate(45vw, 40vh);
+        transform: translateY(0);
     }
 
     to {
-        transform: translate(45vw, 43vh);
+        transform: translateY(25px);
     }
 }

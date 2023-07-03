@@ -1,25 +1,28 @@
 .primary-nav {
     background-color: var(--darkgrey);
     border-bottom: 2px solid var(--lightsecondary);
+}
+
+.primary-nav div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
 }
 
-.primary-nav nav ul {
+.primary-nav div nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     column-gap: 40px;
 }
-.primary-nav nav ul li a {
+.primary-nav div nav ul li a {
     font-size: 18px;
     color: var(--white);
 }
 
-.primary-nav nav ul li a:hover {
+.primary-nav div nav ul li a:hover {
     color: var(--secondary);
 }
 
