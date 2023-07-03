@@ -26,6 +26,10 @@
     color: var(--secondary);
 }
 
+.logo span {
+    color: var(--lightsecondary);
+}
+
 .logo {
     font-family: 'Questrial', sans-serif;
     font-size: 40px;

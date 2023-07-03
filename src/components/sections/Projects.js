@@ -18,7 +18,7 @@ import retrograde from '../../images/projects/retrograde.png'
 const data = [
     {
         "title": "Digit Identification",
-        "description": "Honours Thesis project that uses neural networks to identify all the digits present in an image.",
+        "description": "Honours Thesis project that uses neural networks to identify all the handwrittenf digits present in an image.",
         "summary": "This project uses a convolutional neural network, the MNIST digit dataset, and object detection algorithms to identify the digits that are present on an image. It was created for my honours thesis during the 2023-2024 school year. Feel free to contact me regarding the project details or to receive my official thesis paper.",
         "tools": [
             {
@@ -157,7 +157,7 @@ const data = [
     {
         "title": "Ray Tracing Fundamentals",
         "description": "A website that goes through the fundamentals of the computer technology ray tracing. ",
-        "summary": "Explore the fundamental mathematics and applications behind ray tracing. Video games we’re explored and displayed the astonishing affects of ray tracing.",
+        "summary": "Explore the fundamental mathematics and applications behind ray tracing. Video games we're explored and displayed the astonishing affects of ray tracing.",
         "tools": [
             {
                 "title": "HTML",

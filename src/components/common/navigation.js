@@ -4,7 +4,7 @@ function Navigation() {
         <header className="sticky-header">
             <div id="home" className="primary-nav">
                 <div className="container">
-                    <a href="#home" className="logo">Tyrell Martens</a>
+                    <a href="#home" className="logo"><span>Ty</span>rell Martens</a>
                     <nav>
                         <ul>
                             <li><a href="#skills">Technologies</a></li>
