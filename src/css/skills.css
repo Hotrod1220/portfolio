@@ -24,10 +24,13 @@
 .three-grid__style h3 {
     margin: 0;
     padding: 20px;
-    border-radius: 3%;
-    background-color: var(--secondary);
+    border-bottom: 4px solid var(--secondary);
 }
 
 .three-grid__style ul li {
     border-bottom: 2px solid var(--secondary);
+}
+
+.three-grid__style ul li:last-child {
+    margin-bottom: 10px;
 }

@@ -1,7 +1,6 @@
 .primary-nav {
-    background-color: var(--grey);
+    background-color: var(--darkgrey);
     border-bottom: 2px solid var(--lightsecondary);
-    /* border-top: 2px solid var(--grey); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,13 +14,28 @@
     display: flex;
     column-gap: 40px;
 }
-.primary-nav nav ul li a{
+.primary-nav nav ul li a {
     font-size: 18px;
-    color: var(--white)
+    color: var(--white);
+}
+
+.primary-nav nav ul li a:hover {
+    color: var(--secondary);
 }
 
 .logo {
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Questrial', sans-serif;
     font-size: 40px;
-    color: var(--white)
+    color: var(--white);
+    padding: 5px 0px;
+}
+
+.logo:hover {
+    color: var(--white);
+}
+
+.sticky-header {
+    top: 0;
+    position: sticky;
+    z-index: 3;
 }

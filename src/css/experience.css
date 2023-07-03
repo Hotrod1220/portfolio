@@ -25,12 +25,12 @@
 .toggle-menu__content ul li p{
     font-size: 20px;
     text-align: left;
-    color: var(--lightsecondary)
+    color: var(--white)
 }
 
 .toggle-menu__content ul li {
     list-style-type: disc;
-    color: var(--lightsecondary)
+    color: var(--white)
 }
 
 .toggle-arrow {

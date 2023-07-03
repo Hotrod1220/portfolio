@@ -236,9 +236,9 @@ function Projects() {
     }
 
     return(
-        <section id="projects">
-            <h1 className="margin-bottom-zero">Projects</h1>
-            <div className="three-grid container wrapper">
+        <section id="projects" className='container wrapper'>
+            <h1>Projects</h1>
+            <div className="three-grid">
                 {data.map((content) => (
                     <ProjectCard content={content} key={content.title}/>
                 ))}

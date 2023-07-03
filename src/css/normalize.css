@@ -33,7 +33,7 @@ svg {
 }
 
 .container {
-    max-width: 2000px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -43,10 +43,6 @@ svg {
 
 li {
     list-style-type: none;
-}
-
-.margin-bottom-zero {
-    margin-bottom: 0;
 }
 
 li svg path:first-child {
