@@ -4,7 +4,7 @@
 }
 
 .project:hover {
-    animation: zoom 0.1s forwards;
+    transform: scale(1.03);
 }
 
 .project__img {
@@ -87,14 +87,4 @@
 
 .project-highlight-large2 .project__content, .project-highlight-large .project__content {
     height: 300px;
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.03);
-    }
 }

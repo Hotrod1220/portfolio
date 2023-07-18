@@ -1,0 +1,72 @@
+.modal {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    background-color: var(--darkgrey);
+    overflow-y: auto;
+}
+
+.modal__arrow {
+    max-width: 45px;
+    position: absolute;
+    left: 0%;
+    margin-left: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.modal__content div:first-child {
+    grid-column: span 3;
+}
+
+.modal__img {
+    max-width: 100%;
+    border-radius: 3%;
+    object-fit: contain;
+}
+
+.modal__extra svg {
+    max-width: 40px;
+}
+
+.modal h3 {
+    padding: 20px;
+    border-bottom: 4px solid var(--secondary);
+    margin-top: 0;
+}
+
+.modal__links {
+    padding: 10px;
+    margin: 5px;
+}
+
+.modal__links a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.modal__links svg, .modal__links img {
+    max-width: 40px;
+    align-self: center;
+    justify-self: center;
+}
+
+.modal__links a {
+    align-self: center;
+    text-align: left;
+}
+
+.modal__list ul li {
+    border-bottom: none;
+}
+
+.modal__summary {
+    text-align: left;
+}
+
+.modal__summary p {
+    padding: 0px 20px;
+}

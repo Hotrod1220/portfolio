@@ -2,6 +2,10 @@ function ListSkills({ section, content }) {
     var name, grid;
     if (section === null) {
         name = "projects__content__tools"
+    } else if (section === "Modal") {
+        section = "Tools"
+        name = "three-grid__style modal__list"
+        grid = "two-grid"
     } else {
         name = "three-grid__style"
         grid = "two-grid"
