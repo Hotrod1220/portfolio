@@ -1,4 +1,3 @@
-
 function Navigation() {
     return(
         <header className="sticky-header">

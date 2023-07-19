@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import mapSvgs from '../common/mapSvgs';
-import Modal from 'react-bootstrap/Modal';
 import ListSkills from '../common/listSkills';
+import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
 import VisitSite from '../../images/icons/visitsite.png';
 import { ReactComponent as BackArrow } from '../../images/icons/arrow-left.svg';
@@ -13,7 +13,7 @@ function ProjectCard({content}) {
     var tools = mapSvgs(content.tools)
     const name = 'project-highlight-' + content.highlight
 
-    function changeIndex(index) {
+    function handleSelect(index) {
         setIndex(index)
     }
 
@@ -39,12 +39,12 @@ function ProjectCard({content}) {
                     </div>
                     <div className='four-grid modal__content'>
                         <div>
-                            <Carousel activeIndex={index} onSelect={changeIndex}>
-                                <Carousel.Item>
-                                    {content.images.map((img) => (
+                            <Carousel activeIndex={index} onSelect={handleSelect}>
+                                {content.images.map((img) => (
+                                    <Carousel.Item>
                                         <img className="modal__img" src={img} alt={content.title}/>
-                                    ))}
-                                </Carousel.Item>
+                                    </Carousel.Item>
+                                ))}
                             </Carousel>
                             <div className="modal__summary">
                                 <h3>Summary</h3>

@@ -18,8 +18,8 @@ import retrograde from '../../images/projects/retrograde.png'
 const data = [
     {
         "title": "Digit Identification",
-        "description": "Honours Thesis project that uses neural networks to identify all the handwrittenf digits present in an image.",
-        "summary": "This project uses a convolutional neural network, the MNIST digit dataset, and object detection algorithms to identify the digits that are present on an image. It was created for my honours thesis during the 2023-2024 school year. Feel free to contact me regarding the project details or to receive my official thesis paper.",
+        "description": "Honours Thesis project that uses neural networks to identify all the handwritten digits present in an image.",
+        "summary": "This project uses a convolutional neural network, the MNIST digit dataset, and object detection algorithms to identify the handwritten digits that are present on an image. It was created for my honours thesis during the 2023-2024 school year. Feel free to contact me regarding the project details or to receive my official thesis paper.",
         "tools": [
             {
                 "title": "Python",
@@ -38,7 +38,7 @@ const data = [
     {
         "title": "TataLab",
         "description": "A website for TataLab, a robotics and auditory research lab at the University of Lethbridge.",
-        "summary": "This website was created for a TataLab at the University of Lethbridge. They are a lab that focuses on robotics, auditory research and many other neuroscience fields. Feel free to contact me regarding details of the project.",
+        "summary": "A website that was created for TataLab at the University of Lethbridge. They are a lab that focuses on robotics, auditory research and many other neuroscience fields. Feel free to contact me regarding details of the project.",
         "tools": [
             {
                 "title": "ReactJS",
@@ -84,7 +84,7 @@ const data = [
     {
         "title": "Rock Paper Scissors",
         "description": "Project that experiments with CSS animations and typographic design.",
-        "summary": "The website is visualization of the clashing between rock, paper, and scissors. The rock crushes the scissors, the rock gets covered by the paper, and the paper cut by the scissors.",
+        "summary": "The website is visualization of the clashing between rock, paper, and scissors. The rock crushes the scissors, the rock gets covered by the paper, and the paper gets cut by the scissors.",
         "tools": [
             {
                 "title": "HTML",
@@ -157,7 +157,7 @@ const data = [
     {
         "title": "Ray Tracing Fundamentals",
         "description": "A website that goes through the fundamentals of the computer technology ray tracing. ",
-        "summary": "Explore the fundamental mathematics and applications behind ray tracing. Video games we're explored and displayed the astonishing affects of ray tracing.",
+        "summary": "Explore the fundamentals behind ray tracing. From the mathematics to different applications that demonstrate the astonishing affects of ray tracing.",
         "tools": [
             {
                 "title": "HTML",
