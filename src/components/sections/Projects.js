@@ -220,7 +220,6 @@ const data = [
 function Projects() {
     const images = [progress, progress, waldo1, rock, paper, scissors, maze1, maze2, warriors1, warriors2, warriors3, raytracing1, raytracing2, raytracing3, tydon, retrograde]
     let index = 0
-    let name;
 
     for (let project in data) {
         let proj_imgs = data[project].images

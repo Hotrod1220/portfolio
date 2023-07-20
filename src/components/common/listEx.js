@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ReactComponent as ToggleArrow} from '../../images/icons/chevron-right.svg';
 
 function ListExperience({content}) {
