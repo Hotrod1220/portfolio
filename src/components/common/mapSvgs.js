@@ -18,6 +18,10 @@ import { ReactComponent as php } from "../../images/icons/php.svg";
 function mapSvgs(dataList) {
     const logos = [python, c, sql, html, css, javascript, pytorch, mysql, googletest, reactjs, jquery, github, gitlab, vscode, unixcli, php]
 
+    for (let k in logos) {
+        console.log("Logos" + k, logos[k])
+    }
+
     for (let j in dataList) {
         let title = dataList[j].title.toLowerCase().replace(/\s/g, '')
         title = title.charAt(0).toUpperCase() + title.slice(1)
@@ -28,6 +32,7 @@ function mapSvgs(dataList) {
             }
             if ('Svg' + title === logos[k].render.name) {
                 dataList[j].logo = logos[k]
+                console.log("LogoAdded", logos[k])
                 break;
             }
         }
