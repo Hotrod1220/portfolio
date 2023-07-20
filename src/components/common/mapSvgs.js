@@ -32,6 +32,7 @@ function mapSvgs(dataList) {
             }
         }
     }
+    console.log("DataList", dataList)
     return dataList
 }
 
