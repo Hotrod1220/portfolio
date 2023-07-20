@@ -6,7 +6,7 @@ function Contact() {
         <section id="contact" className="contact">
             <div className='container '>
                 <h1>Contact</h1>
-                <p>Want to get in touch, comment or critic my website? Feel free to send me a message.</p>
+                <p>Want to get in touch, comment or critique my website? Feel free to send me a message.</p>
                 <button className="button__text" onClick={() => window.location.href = 'mailto:tyrell.martens@hotmail.com'}> 
                     <p>Send an Email</p>
                 </button><br/>
