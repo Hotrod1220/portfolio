@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://hotrod1220.github.io/Hotrod1220.github.io",
+  "homepage": "https://hotrod1220.github.io/hotrod1220.github.io/portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
