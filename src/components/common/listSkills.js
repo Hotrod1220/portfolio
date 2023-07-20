@@ -1,3 +1,5 @@
+import BrowserRouter from 'react';
+
 function ListSkills({ section, content }) {
     var name, grid;
     if (section === null) {
@@ -17,8 +19,11 @@ function ListSkills({ section, content }) {
             <ul>
                 {content.map((skill) => (
                     <li key={skill.title} className={grid}>
-                        {skill.logo.render(skill.logo.$$typeof)}
-                        <p>{skill.title}</p>
+                        {/* <BrowserRouter basename=""> */}
+                            {console.log(skill)}
+                            {/* {skill.logo.render(skill.logo.$$typeof)} */}
+                            <p>{skill.title}</p>
+                        {/* </BrowserRouter> */}
                     </li>
                 ))}
             </ul>
