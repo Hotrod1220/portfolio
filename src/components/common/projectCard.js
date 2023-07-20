@@ -58,13 +58,13 @@ function ProjectCard({content}) {
                             <div className="modal__links">
                                 <h3>Links</h3>
                                 {content.github ? (
-                                    <a href={content.github}>
+                                    <a href={content.github} target="_blank" rel="noopener noreferrer">
                                         <Github/>
                                         <p>Github</p>
                                     </a>
                                 ) : null}
                                 {content.web ? (
-                                    <a href={content.web}>
+                                    <a href={content.web} target="_blank" rel="noopener noreferrer">
                                         <img src={VisitSite} alt="Website Link"/>
                                         <p>Visit Site</p>
                                     </a>

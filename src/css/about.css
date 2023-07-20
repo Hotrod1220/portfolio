@@ -6,8 +6,12 @@
     text-align: left;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    padding-left: 20px;
+}
+
+.about__content h2 {
+    text-align: left;
 }
 
 .about__content > * span {
@@ -16,6 +20,14 @@
 
 .about__img {
     border-radius: 1%;
+}
+
+.about .two-grid div:first-child {
+    grid-column: 1;
+}
+
+.about__img-wrapper {
+    padding-right: 20px;
 }
 
 /* 

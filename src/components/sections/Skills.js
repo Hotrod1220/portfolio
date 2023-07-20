@@ -76,7 +76,7 @@ function Skills() {
     var tools = mapSvgs(data.Tools)
 
     return (
-        <section className="container wrapper"id="skills">
+        <section className="skills container wrapper"id="skills">
             <h1>Technologies</h1>
             <div className="three-grid">
                 <div>

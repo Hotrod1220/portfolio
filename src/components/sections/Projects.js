@@ -236,7 +236,7 @@ function Projects() {
     }
 
     return(
-        <section id="projects" className='container wrapper'>
+        <section id="projects" className='projects container wrapper'>
             <h1>Projects</h1>
             <div className="three-grid">
                 {data.map((content) => (

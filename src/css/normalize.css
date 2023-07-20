@@ -21,6 +21,7 @@ html {
     color: var(--white);
     text-align: center;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 img {
