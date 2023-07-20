@@ -70,7 +70,7 @@ const data = [
             }
         ],
         "github": null,
-        "web": "tatalab.ca",
+        "web": "https://tatalab.ca/",
         "images": ["progress"],
         "highlight": "large2"
     },
