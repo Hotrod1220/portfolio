@@ -17,7 +17,7 @@ function ListSkills({ section, content }) {
             <ul>
                 {content.map((skill) => (
                     <li key={skill.title} className={grid}>
-                        {/* {skill.logo.render(skill.logo.$$typeof)} */}
+                        {skill.logo.render(skill.logo.$$typeof)}
                         <p>{skill.title}</p>
                     </li>
                 ))}

@@ -1,92 +1,103 @@
 import ListSkills from '../common/listSkills';
-import mapSvgs from '../common/mapSvgs';
+import { ReactComponent as python } from "../../images/icons/python.svg";
+import { ReactComponent as c } from "../../images/icons/c++.svg";
+import { ReactComponent as sql } from "../../images/icons/sql.svg";
+import { ReactComponent as html } from "../../images/icons/html.svg";
+import { ReactComponent as css } from "../../images/icons/css.svg";
+import { ReactComponent as javascript } from "../../images/icons/javascript.svg";
+import { ReactComponent as pytorch } from "../../images/icons/pytorch.svg";
+import { ReactComponent as mysql } from "../../images/icons/mysql.svg";
+import { ReactComponent as googletest } from "../../images/icons/googletest.svg";
+import { ReactComponent as reactjs } from "../../images/icons/reactjs.svg";
+import { ReactComponent as jquery } from "../../images/icons/jquery.svg";
+import { ReactComponent as github } from "../../images/icons/github.svg";
+import { ReactComponent as gitlab } from "../../images/icons/gitlab.svg";
+import { ReactComponent as vscode } from "../../images/icons/vscode.svg";
+import { ReactComponent as unixcli } from "../../images/icons/unixcli.svg";
 
 const data = {
     "Languages": [
         {
             "title": "Python",
-            "logo": "python.svg"
+            "logo": python
         },
         {
             "title": "C++",
-            "logo": "c++.svg"
+            "logo": c
         },
         {
             "title": "SQL",
-            "logo": "sql.svg"
+            "logo": sql
         },
         {
             "title": "HTML",
-            "logo": "html.svg"
+            "logo": html
         },
         {
             "title": "CSS",
-            "logo": "css.svg"
+            "logo": css
         },
         {
             "title": "JavaScript",
-            "logo": "javascript.svg"
+            "logo": javascript
         }
     ],
     "Frameworks": [
         {
             "title": "PyTorch",
-            "logo": "pytorch.svg"
+            "logo": pytorch
         },
         {
             "title": "MySQL",
-            "logo": "mysql.svg"
+            "logo": mysql
         },
         {
             "title": "GoogleTest",
-            "logo": "googletest.svg"
+            "logo": googletest
         },
         {
             "title": "ReactJS",
-            "logo": "reactjs.svg"
+            "logo": reactjs
         },
         {
             "title": "jQuery",
-            "logo": "jquery.svg"
+            "logo": jquery
         }
     ],
     "Tools": [
         {
             "title": "Github",
-            "logo": "github.svg"
+            "logo": github
         },
         {
             "title": "GitLab",
-            "logo": "gitlab.svg"
+            "logo": gitlab
         },
         {
             "title": "VS Code",
-            "logo": "vscode.svg"
+            "logo": vscode
         },
         {
             "title": "UNIX CLI",
-            "logo": "unixcli.svg"
+            "logo": unixcli
         }
     ]
 }
 
 function Skills() {
-    var languages = mapSvgs(data.Languages)
-    var frameworks = mapSvgs(data.Frameworks)
-    var tools = mapSvgs(data.Tools)
 
     return (
-        <section className="skills container wrapper"id="skills">
+        <section className="skills container wrapper" id="skills">
             <h1>Technologies</h1>
             <div className="three-grid">
                 <div>
-                    <ListSkills section="Languages" content={languages} />
+                    <ListSkills section="Languages" content={data.Languages} />
                 </div>
                 <div>
-                    <ListSkills section="Frameworks" content={frameworks} />
+                    <ListSkills section="Frameworks" content={data.Frameworks} />
                 </div>
                 <div>
-                    <ListSkills section="Tools" content={tools} />
+                    <ListSkills section="Tools" content={data.Tools} />
                 </div>
             </div>
         </section>

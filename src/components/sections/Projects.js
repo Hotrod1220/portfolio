@@ -14,6 +14,18 @@ import raytracing2 from '../../images/projects/raytracing2.png'
 import raytracing3 from '../../images/projects/raytracing3.png'
 import tydon from '../../images/projects/tydon.png'
 import retrograde from '../../images/projects/retrograde.png'
+import { ReactComponent as python } from "../../images/icons/python.svg";
+import { ReactComponent as c } from "../../images/icons/c++.svg";
+import { ReactComponent as sql } from "../../images/icons/sql.svg";
+import { ReactComponent as html } from "../../images/icons/html.svg";
+import { ReactComponent as css } from "../../images/icons/css.svg";
+import { ReactComponent as javascript } from "../../images/icons/javascript.svg";
+import { ReactComponent as pytorch } from "../../images/icons/pytorch.svg";
+import { ReactComponent as mysql } from "../../images/icons/mysql.svg";
+import { ReactComponent as googletest } from "../../images/icons/googletest.svg";
+import { ReactComponent as reactjs } from "../../images/icons/reactjs.svg";
+import { ReactComponent as jquery } from "../../images/icons/jquery.svg";
+import { ReactComponent as php } from "../../images/icons/php.svg";
 
 const data = [
     {
@@ -23,17 +35,17 @@ const data = [
         "tools": [
             {
                 "title": "Python",
-                "logo": "python.svg"
+                "logo": python
             },
             {
                 "title": "PyTorch",
-                "logo": "pytorch.svg"
+                "logo": pytorch
             }
         ],
         "github": "https://github.com/Hotrod1220/Digit_Identification",
         "web": null,
-        "images" : ["progress"],
-        "highlight" : "large"
+        "images": ["progress"],
+        "highlight": "large"
     },
     {
         "title": "TataLab",
@@ -42,25 +54,25 @@ const data = [
         "tools": [
             {
                 "title": "ReactJS",
-                "logo": "reactjs.svg"
+                "logo": reactjs
             },
             {
                 "title": "JavaScript",
-                "logo": "javascript.svg"
+                "logo": javascript
             },
             {
                 "title": "HTML",
-                "logo": "html.svg"
+                "logo": html
             },
             {
                 "title": "CSS",
-                "logo": "css.svg"
+                "logo": css
             }
         ],
         "github": null,
         "web": "tatalab.ca",
-        "images" : ["progress"],
-        "highlight" : "large2"
+        "images": ["progress"],
+        "highlight": "large2"
     },
     {
         "title": "Where's Waldo",
@@ -69,17 +81,17 @@ const data = [
         "tools": [
             {
                 "title": "Python",
-                "logo": "python.svg"
+                "logo": python
             },
             {
                 "title": "PyTorch",
-                "logo": "pytorch.svg"
+                "logo": pytorch
             }
         ],
         "github": "https://github.com/Hotrod1220/waldo",
         "web": null,
-        "images" : ["waldo1"],
-        "highlight" : "vertical1"
+        "images": ["waldo1"],
+        "highlight": "vertical1"
     },
     {
         "title": "Rock Paper Scissors",
@@ -88,17 +100,17 @@ const data = [
         "tools": [
             {
                 "title": "HTML",
-                "logo": "html.svg"
+                "logo": html
             },
             {
                 "title": "CSS",
-                "logo": "css.svg"
+                "logo": css
             }
         ],
         "github": "https://github.com/Hotrod1220/ROCK-PAPER-SCISSORS",
         "web": "https://hotrod1220.github.io/ROCK-PAPER-SCISSORS/index.html",
-        "images" : ["rock", "paper", "scissors"],
-        "highlight" : "vertical2"
+        "images": ["rock", "paper", "scissors"],
+        "highlight": "vertical2"
     },
     {
         "title": "V-I-R-U-S",
@@ -107,25 +119,25 @@ const data = [
         "tools": [
             {
                 "title": "JavaScript",
-                "logo": "javascript.svg"
+                "logo": javascript
             },
             {
                 "title": "jQuery",
-                "logo": "jquery.svg"
+                "logo": jquery
             },
             {
                 "title": "HTML",
-                "logo": "html.svg"
+                "logo": html
             },
             {
                 "title": "CSS",
-                "logo": "css.svg"
+                "logo": css
             }
         ],
         "github": "https://github.com/Hotrod1220/V-I-R-U-S",
         "web": "https://hotrod1220.github.io/V-I-R-U-S/",
-        "images" : ["maze1", "maze2"],
-        "highlight" : "normal"
+        "images": ["maze1", "maze2"],
+        "highlight": "normal"
     },
     {
         "title": "Golden State Warriors",
@@ -134,25 +146,25 @@ const data = [
         "tools": [
             {
                 "title": "JavaScript",
-                "logo": "javascript.svg"
+                "logo": javascript
             },
             {
                 "title": "jQuery",
-                "logo": "jquery.svg"
+                "logo": jquery
             },
             {
                 "title": "HTML",
-                "logo": "html.svg"
+                "logo": html
             },
             {
                 "title": "CSS",
-                "logo": "css.svg"
+                "logo": css
             }
         ],
         "github": "https://github.com/Hotrod1220/Warriors-2022",
         "web": "https://hotrod1220.github.io/Warriors-2022/",
-        "images" : ["warriors1", "warriors2", "warriors3"],
-        "highlight" : "normal"
+        "images": ["warriors1", "warriors2", "warriors3"],
+        "highlight": "normal"
     },
     {
         "title": "Ray Tracing Fundamentals",
@@ -161,17 +173,17 @@ const data = [
         "tools": [
             {
                 "title": "HTML",
-                "logo": "html.svg"
+                "logo": html
             },
             {
                 "title": "CSS",
-                "logo": "css.svg"
+                "logo": css
             }
         ],
         "github": "https://github.com/Hotrod1220/ray_tracing_fundamentals",
         "web": "https://hotrod1220.github.io/ray_tracing_fundamentals/",
-        "images" : ["raytracing1", "raytracing2", "raytracing3"],
-        "highlight" : "normal"
+        "images": ["raytracing1", "raytracing2", "raytracing3"],
+        "highlight": "normal"
     },
     {
         "title": "Tydons Pizzeria",
@@ -180,21 +192,21 @@ const data = [
         "tools": [
             {
                 "title": "SQL",
-                "logo": "sql.svg"
+                "logo": sql
             },
             {
                 "title": "PHP",
-                "logo": "php.svg"
+                "logo": php
             },
             {
                 "title": "MySQL",
-                "logo": "mysql.svg"
+                "logo": mysql
             }
         ],
         "github": "https://github.com/Hotrod1220/TydonsPizzeria",
         "web": null,
-        "images" : ["tydon"],
-        "highlight" : "normal"
+        "images": ["tydon"],
+        "highlight": "normal"
     },
     {
         "title": "Retrograde",
@@ -203,17 +215,17 @@ const data = [
         "tools": [
             {
                 "title": "C++",
-                "logo": "c++.svg"
+                "logo": c
             },
             {
                 "title": "GoogleTest",
-                "logo": "googletest.svg"
+                "logo": googletest
             }
         ],
         "github": "https://github.com/Hotrod1220/text-adventure-game",
         "web": null,
-        "images" : ["retrograde"],
-        "highlight" : "normal"
+        "images": ["retrograde"],
+        "highlight": "normal"
     }
 ]
 
@@ -223,9 +235,8 @@ function Projects() {
 
     for (let project in data) {
         let proj_imgs = data[project].images
-        
+
         for (let image in proj_imgs) {
-            
             if (images[index].indexOf(proj_imgs[image]) !== -1) {
                 proj_imgs[image] = images[index]
                 index++
@@ -234,12 +245,12 @@ function Projects() {
         }
     }
 
-    return(
+    return (
         <section id="projects" className='projects container wrapper'>
             <h1>Projects</h1>
             <div className="three-grid">
                 {data.map((content) => (
-                    <ProjectCard content={content} key={content.title}/>
+                    <ProjectCard content={content} key={content.title} />
                 ))}
             </div>
         </section>

@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import mapSvgs from '../common/mapSvgs';
 import ListSkills from '../common/listSkills';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
@@ -10,7 +9,7 @@ import { ReactComponent as Github } from '../../images/icons/github.svg';
 function ProjectCard({content}) {
     const [show, setShow] = useState(false)
     const [index, setIndex] = useState(0)
-    var tools = mapSvgs(content.tools)
+    var tools = content.tools
     const name = 'project-highlight-' + content.highlight
 
     function handleSelect(index) {
