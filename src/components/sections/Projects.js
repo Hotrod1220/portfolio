@@ -1,5 +1,9 @@
 import ProjectCard from '../common/projectCard';
-import progress from '../../images/projects/progress.jpeg'
+import digit1 from '../../images/projects/digit1.png'
+import digit2 from '../../images/projects/digit2.png'
+import tatalab1 from '../../images/projects/tatalab1.png'
+import tatalab2 from '../../images/projects/tatalab2.png'
+import tatalab3 from '../../images/projects/tatalab3.png'
 import waldo1 from '../../images/projects/waldo1.png'
 import rock from '../../images/projects/rock.png'
 import paper from '../../images/projects/paper.png'
@@ -44,13 +48,13 @@ const data = [
         ],
         "github": "https://github.com/Hotrod1220/Digit_Identification",
         "web": null,
-        "images": ["progress"],
+        "images": ["digit1", "digit2"],
         "highlight": "large"
     },
     {
         "title": "TataLab",
         "description": "A website for TataLab, a robotics and auditory research lab at the University of Lethbridge.",
-        "summary": "A website that was created for TataLab at the University of Lethbridge. They are a lab that focuses on robotics, auditory research and many other neuroscience fields. Feel free to contact me regarding details of the project.",
+        "summary": "A fully functional and responsive website that was created for TataLab at the University of Lethbridge. Built using Firebase API to allow for dynamic member profiles, projects and secure authentication. Feel free to contact me regarding the project details.",
         "tools": [
             {
                 "title": "ReactJS",
@@ -71,7 +75,7 @@ const data = [
         ],
         "github": null,
         "web": "https://tatalab.ca/",
-        "images": ["progress"],
+        "images": ["tatalab1", "tatalab2", "tatalab3"],
         "highlight": "large2"
     },
     {
@@ -230,7 +234,7 @@ const data = [
 ]
 
 function Projects() {
-    const images = [progress, progress, waldo1, rock, paper, scissors, maze1, maze2, warriors1, warriors2, warriors3, raytracing1, raytracing2, raytracing3, tydon, retrograde]
+    const images = [digit1, digit2, tatalab1, tatalab2, tatalab3, waldo1, rock, paper, scissors, maze1, maze2, warriors1, warriors2, warriors3, raytracing1, raytracing2, raytracing3, tydon, retrograde]
     let index = 0
 
     for (let project in data) {
